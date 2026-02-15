@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroMockup from "@/assets/hero-mockup.png";
+import logoDp from "@/assets/logo-dp.png";
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,8 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge */}
           <div className="opacity-0 animate-fade-up inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8">
-            <span className="text-sm text-primary">✨ 14 dias grátis. Sem cartão de crédito.</span>
+            <img src={logoDp} alt="DetailPro" className="h-5 w-auto" />
+            <span className="text-sm text-primary">14 dias grátis. Sem cartão de crédito.</span>
           </div>
 
           {/* Headline */}

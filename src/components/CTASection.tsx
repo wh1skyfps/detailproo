@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoDp from "@/assets/logo-dp.png";
 
 const CTASection = () => {
   return (
@@ -10,6 +11,7 @@ const CTASection = () => {
           <div className="absolute inset-0 bg-primary/5 rounded-3xl blur-[80px] pointer-events-none" />
 
           <div className="relative glass-card rounded-3xl p-12 md:p-16 gold-border">
+            <img src={logoDp} alt="DetailPro" className="h-12 w-auto mx-auto mb-6" />
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
               Eleve o padrão da sua estética{" "}
               <span className="gold-gradient-text">hoje mesmo.</span>
