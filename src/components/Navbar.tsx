@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/30">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src={logoDp} alt="DetailPro" className="h-8 w-auto" />
+          <img src={logoDp} alt="DetailPro" className="h-12 w-auto" />
           <span className="text-xl font-bold">Detail<span className="text-primary">Pro</span></span>
         </a>
 
