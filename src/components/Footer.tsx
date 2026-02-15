@@ -1,15 +1,20 @@
+import logoDp from "@/assets/logo-dp.png";
+
 const Footer = () => {
   return (
     <footer className="py-12 border-t border-border/50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 className="text-lg font-bold mb-1">
-              Detail<span className="text-primary">Pro</span>
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Transformando estéticas automotivas em experiências premium
-            </p>
+          <div className="flex items-center gap-3">
+            <img src={logoDp} alt="DetailPro" className="h-10 w-auto" />
+            <div>
+              <h3 className="text-lg font-bold mb-1">
+                Detail<span className="text-primary">Pro</span>
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Transformando estéticas automotivas em experiências premium
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
